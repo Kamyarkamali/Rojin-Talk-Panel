@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "vazir";
+  src: url("../public/fonts/woff/YekanBakhFaNum-Regular.woff") format("woff2");
+}
+
+* {
+  font-family: vazir, sans-serif;
+}
+
+html {
+  font-family: "vazir", sans-serif;
+}
+
+/* Override Ant Design Input */
+.ant-input,
+.ant-input-password {
+  background-color: white !important;
+  border-radius: 0.5rem !important;
+  text-align: right !important;
+  padding: 0.5rem 1rem !important;
+  box-shadow: none !important;
+  border: 1px solid #d9d9d9 !important;
+  color: #000 !important;
+}
