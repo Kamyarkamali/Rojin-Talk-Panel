@@ -70,7 +70,7 @@ function Login() {
                 <input
                   type="text"
                   placeholder="نام کاربری"
-                  className="w-full text-right outline-none px-2 py-2 sm:px-3 sm:py-2 text-sm sm:text-base bg-[#E5E7EB]"
+                  className="w-full text-right outline-none px-2 py-2 sm:px-3 sm:py-2 text-sm sm:text-base bg-[#FFFFFF]"
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
                 />
@@ -93,7 +93,7 @@ function Login() {
                 <input
                   type="password"
                   placeholder="رمز عبور"
-                  className="w-full text-right outline-none px-2 py-2 sm:px-3 sm:py-2 text-sm sm:text-base bg-[#E5E7EB]"
+                  className="w-full text-right outline-none px-2 py-2 sm:px-3 sm:py-2 text-sm sm:text-base bg-[#FFFFFF]"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                 />
